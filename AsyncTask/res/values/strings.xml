@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidDemos</string>
+    <string name="enter_character">Entry must be at least 1 character</string>
+</resources>
