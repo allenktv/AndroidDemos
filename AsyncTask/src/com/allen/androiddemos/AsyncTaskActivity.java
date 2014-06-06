@@ -47,7 +47,7 @@ public class AsyncTaskActivity extends Activity {
             String result = "";
             try {
                 for (int i = 0; i < 5; i++) {
-                    Thread.sleep(500);  //Wait 0.5 seconds before every loop
+                    Thread.sleep(500);  //Wait 0.5 seconds for every loop
                     result = result + strings[0];  //append
                 }
             } catch (InterruptedException e) {
@@ -59,6 +59,7 @@ public class AsyncTaskActivity extends Activity {
 
         @Override
         protected void onPostExecute(String s) {
+
             mResultTextView.setText(s);
         }
     }
